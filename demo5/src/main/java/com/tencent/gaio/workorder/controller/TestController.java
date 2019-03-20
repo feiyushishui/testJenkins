@@ -23,7 +23,7 @@ public class TestController {
     public String create2() {
         Date date = new Date();
         String format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(date);
-        String s = "不测试demo5啊啊啊啊啊啊啊啊啊啊啊,时间是："+format;
+        String s = "不测试请问这可能彩开奖撒代金券我比较emo5啊啊啊啊啊啊啊啊啊啊啊,时间是："+format;
         return s;
     }
 
