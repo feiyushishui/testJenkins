@@ -19,5 +19,13 @@ public class TestController {
         return s;
     }
 
+    @RequestMapping(value = "/test2", method = {RequestMethod.GET})
+    public String create2() {
+        Date date = new Date();
+        String format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(date);
+        String s = "不测试demo5啊啊啊啊啊啊啊啊啊啊啊,时间是："+format;
+        return s;
+    }
+
 
 }
