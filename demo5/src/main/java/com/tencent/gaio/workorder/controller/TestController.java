@@ -27,5 +27,12 @@ public class TestController {
         return s;
     }
 
+    @RequestMapping(value = "/test3", method = {RequestMethod.GET})
+    public String create3() {
+        Date date = new Date();
+        String format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(date);
+        String s = "zzsssssssssssaaazzzz,时间是："+format;
+        return s;
+    }
 
 }
